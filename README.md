@@ -14,7 +14,7 @@ A proof-of-concept MLOps pipeline provisioning containerized local LLM inference
 ## Ubuntu / Linux Setup Guide
 *(Prerequisites: Git, Docker, Terraform, Python 3)*
 
-### 1. Open Terminal & Clone Repository
+### 1. Open Terminal & Clone Repository("CTRL + ALT + T")
 git clone https://github.com/mariocoxen/mlops-ollama-poc.git
 cd mlops-ollama-poc
 
