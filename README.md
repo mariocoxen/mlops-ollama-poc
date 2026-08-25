@@ -10,9 +10,9 @@ A proof-of-concept MLOps pipeline provisioning containerized local LLM inference
 * **Hardware:** NVIDIA GeForce RTX 4060 (Optional fallback to CPU)
 
 ## Ubuntu Step-by-Step Guide
-Follow these steps to deploy the project from scratch on a clean Ubuntu machine.
+Follow these steps to deploy the project from scratch on an Ubuntu machine.
 
-### 1. Open Terminal & Clone Repository
+### 1. Open Terminal & Clone Repository("CTRL + ALT + T")
 git clone https://github.com/mariocoxen/mlops-ollama-poc.git
 cd mlops-ollama-poc
 
