@@ -1,8 +1,8 @@
 # MLOps Local Inference POC
 
 ubuntu/debian:
-step#1: open terminal ctrl + alt + t
-step#2: download all requirements (with exact steps bellow)
+**step#1:** open terminal ctrl + alt + t
+**step#2:** download all requirements (with exact steps bellow)
 sudo apt update && sudo apt install -y git python3 python3-pip docker.io
 sudo snap install terraform --classic
 sudo usermod -aG docker $USER && newgrp docker
