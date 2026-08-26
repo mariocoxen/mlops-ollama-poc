@@ -28,8 +28,16 @@ terraform apply -var="use_gpu=false" -auto-approve
 ```
 
 ### Step 4: Run and enjoy
+
+**First run (initial setup):**
 ```bash
 docker exec -it local_ollama_poc ollama pull llama3:8b
+python3 app.py
+```
+
+**Subsequent runs (after container restart):**
+```bash
+docker exec -it local_ollama_poc ollama run llama3:8b
 python3 app.py
 ```
 
@@ -59,7 +67,15 @@ terraform apply -var="use_gpu=false" -auto-approve
 ```
 
 ### Step 4: Run and enjoy
+
+**First run (initial setup):**
 ```bash
 docker exec -it local_ollama_poc ollama pull llama3:8b
+python app.py
+```
+
+**Subsequent runs (after container restart):**
+```bash
+docker exec -it local_ollama_poc ollama run llama3:8b
 python app.py
 ```
