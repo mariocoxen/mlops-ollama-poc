@@ -1,4 +1,4 @@
-# MLOps Local Inference POC
+# MLOps Local Inference POC(under development until further notice)
 
 ## Ubuntu/Debian
 
